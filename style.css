@@ -1,0 +1,229 @@
+/* Utilities CSS */
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.my-1 {
+    margin: 1rem 0;
+}
+
+.my-2 {
+    margin: 2rem 0;
+}
+
+.my-4 {
+    margin: 4rem 0;
+}
+
+.grid {
+    display: grid;
+}
+
+.grid-3 {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+.bg-primary {
+    background: #333;
+    color: #fff;
+}
+
+.bg-light {
+    background: #f4f4f4;
+}
+
+.bg-dark {
+    background: #000;
+    color: #fff;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    color: #fff;
+    background: #333;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+.btn-primary {
+    background: #333;
+}
+
+.btn-outline {
+    background: transparent;
+    border: 1px solid #333;
+}
+
+.btn-dark {
+    background: #000;
+}
+
+.card {
+    background: #fff;
+    border-radius: 5px;
+    padding: 1.5rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Navbar */
+.navbar {
+    background: #333;
+    color: #fff;
+    padding: 0.5rem 0;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar ul li {
+    margin: 0 0.5rem;
+}
+
+.navbar ul li a {
+    color: #fff;
+    font-size: 1.1rem;
+}
+
+/* Header */
+.header {
+    background: #333;
+    color: #fff;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.header h1 {
+    margin-bottom: 1rem;
+    font-size: 3rem;
+}
+
+.header p {
+    font-size: 1.2rem;
+}
+
+/* Showcase */
+.showcase {
+    background: url('https://github.com/bradtraversy/loruki-website/blob/master/images/showcase.jpg?raw=true') no-repeat center center/cover;
+    color: #fff;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.showcase-text {
+    margin-right: 2rem;
+}
+
+.showcase-form {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 2rem;
+    border-radius: 5px;
+}
+
+.form-control {
+    margin-bottom: 1rem;
+}
+
+.form-control input[type='text'],
+.form-control input[type='email'] {
+    width: 100%;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px;
+}
+
+.stats {
+    background: #333;
+    color: #fff;
+    padding: 4rem 0;
+}
+
+.stats i {
+    color: #ff5733;
+}
+
+.cli {
+    background: #f4f4f4;
+    padding: 4rem 0;
+}
+
+.cli img {
+    width: 100%;
+}
+
+.cloud {
+    background: url('https://github.com/bradtraversy/loruki-website/blob/master/images/cloud.jpg?raw=true') no-repeat center center/cover;
+}
+
+.languages .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.languages img {
+    width: 50%;
+}
+
+.features-main .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.footer {
+    background: #000;
+    color: #fff;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer nav ul {
+    display: flex;
+}
+
+.footer nav ul li {
+    margin: 0 0.5rem;
+}
+
+.footer .social a {
+    color: #fff;
+    margin: 0 0.5rem;
+}
